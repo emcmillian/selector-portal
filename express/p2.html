@@ -29,7 +29,8 @@ form {text-align: center;}
 
         <b>After carefully considering the four algorithms above, which algorithm would you recommend? </b><br />
         
-        <form>
+        <form action="connect2.php"
+        method="POST">
         <input type="radio" id="alg1" name="chosen_algorithm" value="alg1">
         <label for="alg1">Algorithm 1</label><br>
         <input type="radio" id="alg2" name="chosen_algorithm" value="alg2">
@@ -38,10 +39,8 @@ form {text-align: center;}
         <label for="alg3">Algorithm 3</label> <br>
         <input type="radio" id="alg4" name="chosen_algorithm" value="alg4">
         <label for="alg4">Algorithm 4</label> <br> <br>
-        
 
-        <label for="algorithm_choice"><b>Please explain the reason for your recommendation:</b></label> <br>
-
+        <label for="recommendation"><b>Please explain the reason for your recommendation:</b></label> <br>
         <textarea id="algorithm_choice" name="algorithm_choice" rows="4" cols="50">
         
         </textarea> <br>

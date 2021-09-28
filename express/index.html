@@ -27,7 +27,10 @@ form {text-align: center;}
     opinion from many classmates about which of the four algorithms we developed we should choose.  The four <br />
     algorithms are identical in all ways but which features (attributes) of the individuals they use.  Specifically; <br /> <br />
     
-    <form>
+    <form action="connect.php" 
+    method="POST"
+    enctype="multipart/form-data"
+    name="EmailTestForm">
     <label for="id_num"> <b>Unique ID Number:</b></label><br>
     <input type="text" id="id_num" name="id_num"><br> <br>
     <input type="submit" value="Submit"> <br>
